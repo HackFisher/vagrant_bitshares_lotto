@@ -14,7 +14,7 @@ sudo apt-get install -y libbz2-dev libboost-dev libboost-all-dev cmake
 # download bitshares_toolkit if not already present
 cd bitshares
 if [ ! -d "bitshares_toolkit" ]; then
-  git clone https://github.com/BitShares/bitshares_toolkit.git
+  git clone https://github.com/HackFisher/bitshares_toolkit.git
   cd bitshares_toolkit
   git submodule init
   git submodule update
